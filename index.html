@@ -1,279 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
     <title>My First Portfolio</title>
-
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="portfolio.css" rel="stylesheet">
+</head>
 
-  </head>
-
-  <body>
-
+<body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-	  <a class="navbar-brand" href="#">
-						<img src="me.jpg" width="70" height="58" alt="">
-					</a>
-        <a class="navbar-brand" href="#">Sarah Wachowicz</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-			 <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="me.jpg" width="70" height="56" alt=""></a>
+            <a class="navbar-brand" href="#">Sarah Wachowicz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container" style="background-color:#FAF5E5">
-
-      <!-- Portfolio Item Heading -->
-      <h1 class="my-5">My First Portfolio</h1>
-        <!--<small>The Tech Academy</small> -->
-
-      <!-- Portfolio Item Row -->
-      <div class="row">
-
-        <div class="col-md-8">
-          <img class="img-fluid" src="portfolio.jpeg" alt="" style="width=1200px;height:460px;">
+    <!-- HEADER -->
+    <header id="top" class="header">
+        <div class="text-vertical-center-title">
+            <h1>Sarah Wachowicz</h1>
         </div>
-
-        <div class="col-md-4">
-          <h2 class="my-3">HTML & CSS Course Portfolio</h2>
-          <p>To conclude the HTML & CSS Course through The Tech Academy's Software Development Program, this is my first draft of a portfolio using a Bootstrap starter template. I am eager to continue my computer programming education to add more interesting features to my portfolio and to implement these skills into a future career.</p>
-		  <h2 class="my-3">Course Summary:</h2>
-          <ul>
-            <li>HTML (Hypertext Markup Language)</li>
-            <li>CSS (Cascade Style Sheets)</li>
-            <li>Bootstrap (Front-end Framework)</li>
-            <li>Visual Studio (Introduction to)</li>
-          </ul>
+        <div class="text-vertical-center-subtitle">
+            <h3>Software Engineering Student</h3>
         </div>
+    </header>
+    <!-- /HEADER -->
+    <!-- Sections -->
+    <!-- About Me: -->
+    <center>
+        <br />
+        <h3 class="my-3">About Me:</h3>
+        <p class="about">
+            Thank you for visiting my portfolio.
+            I am currently in the process of completing my curriculum of Software Development with <a href="https://learncodinganywhere.com/" target="_blank">The Tech Academy</a> and will prospecting for suitable Entry-Level Software Developer positions.
+            As you explore my page you will gather a firm understanding of my skills and experience.
+        </p>
+        <br />
 
-      </div>
-      <!-- /.row -->
+    </center>
+    <!--/About Me: -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                <!-- Education Row -->
+                <h3 class="my-4" id="education">Education:</h3></center>
+                <div class="card-columns" id="education">
+                    <div class="card">
+                        <img class="card-img-other" src="bellarmine.jpg" alt="High School">
+                        <div class="card-body">
+                            <br />
+                            <h5 class="card-title-hs">High School Diploma</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <br />
+                        <img class="card-img-other" src="oregon.jpg" alt="College">
+                        <div class="card-body">
+                            <br />
+                            <h5 class="card-title-oregon">Bachelor of Science: Economics<br />Minor: Business Administration</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-other" src="tech.jpg" alt="Certificate">
+                        <div class="card-body">
+                            <br />
+                            <h5 class="card-title-tech">Software Engineering Certificate</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Education Row-->
+                <!-- Experience Row -->
+                <center><h3 class="my-4" id="experience">Experience:</h3></center>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title-exp">Legal Assistance</h5>
+                                <p class="card-text">Fast-Paced</p>
+                                <p class="card-text">Problem-Solving</p>
+                                <p class="card-text">Small-Business Administrative Support</p>
+                                <p class="card-text">Legal Research, Reading, and Writing</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title-exp">Software Sales</h5>
+                            <p class="card-text">Communicative</p>
+                            <p class="card-text">Goal-Oriented</p>
+                            <p class="card-text">Determination</p>
+                            <p class="card-text">Product-Knowledge</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title-exp">Medicare Research:</h5>
+                            <p class="card-text">Efficient</p>
+                            <p class="card-text">Accurate</p>
+                            <p class="card-text">Formally Written</p>
+                            <p class="card-text">Medicare Knowledge and Guidelines</p>
+                        </div>
+                    </div>
+                </div>
+                <br />
 
-      <!-- Education Row -->
-		<h3 class="my-4" id="education">Education</h3>
-			<div class="row">
-				
-					<div class="col-md-3 col-sm-6 mb-4">
-						<img class="img-fluid" src="bellarmine.jpg" alt="">
-					  </a>
-					</div>
+            </div>
+                    
+                    <!-- /Experience -->
+               
 
-					<div class="col-md-3 col-sm-6 mb-4">
-						<img class="img-fluid" src="oregon.jpg" alt="">
-					  </a>
-					</div>
-
-					<div class="col-md-3 col-sm-6 mb-4">
-						<img class="img-fluid" src="tech.jpg" alt="">
-					  </a>
-					</div>
-			</div>
-		
-      <!-- /.row -->
-	  
-	   <!-- Projects Row -->
-      <h3 class="my-4" id="projects">Projects</h3>
-	  
-		<center>
-			<p>Stay Tuned!</p>
-			<p><a href="https://github.com/swachowicz">Click Here </a>to visit my GitHub page.</p>
-		</center>
-	  
-	   <!-- /Projects -->
-	   
-	   <!-- Skills Row-->
-    <h3 class="my-4" id="skills">Skills</h3>
-	<div class="row">
-		<!--from Cinema project-->
-		<div class="card-group" id="skills">
-			<div class="card">
-				<img class="card-img-top" src="html.jpeg" alt="Card image cap">
-			</div>
-			<div class="card">
-				<img class="card-img-top" src="microsoft.jpg" alt="Card image cap">
-			</div>
-			<div class="card">
-				<img class="card-img-top" src="visualstudio.png" alt="Card image cap">
-			</div>
-			<div class="card">
-				<img class="card-img-top" src="linkedin.png" alt="Card image cap">
-			</div>
-			<div class="card">
-				<img class="card-img-top" src="twitter.png" alt="Card image cap">
-			</div>
-			
-		</div>
-	</div>
-	  
-	   <!-- /Skills -->
-	   
-	    <!-- Experience Row -->
-      <h3 class="my-4" id="experience">Experience</h3>
-		<center>
-		
-		<!--Bootstrap/JavaScript/Button --LEGAL -->
-			<div class="container">
-
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-				
-				<!-- Trigger the modal with a button -->
-				<button type="button" class="btn btn-info btn-lg" id="myBtn">Legal</button>
-
-				<!-- Modal -->
-				<div class="modal fade" id="myModal" role="dialog">
-					<div class="modal-dialog">
-
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<h4 class="modal-title">Legal</h4>
-							</div>
-							<div class="modal-body">
-							  <p>Personal growth from legal industry experience.</p>
-							</div>
-							<div class="modal-footer">
-							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-			
-			<!--Bootstrap/JavaScript/Button --SOFTWARE SALES -->
-			<div class="container">
-
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-				
-				<!-- Trigger the modal with a button -->
-				<button type="button" class="btn btn-info btn-lg" id="myBtn">Software Sales</button>
-
-				<!-- Modal -->
-				<div class="modal fade" id="myModal" role="dialog">
-					<div class="modal-dialog">
-
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<h4 class="modal-title">Sales</h4>
-							</div>
-							<div class="modal-body">
-							  <p>Personal growth from sales experience.</p>
-							</div>
-							<div class="modal-footer">
-							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-			
-			<!--Bootstrap/JavaScript/Button --HEALTHCARE RESEARCH -->
-			<div class="container">
-
-				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-				
-				<!-- Trigger the modal with a button -->
-				<button type="button" class="btn btn-info btn-lg" id="myBtn">Healthcare</button>
-
-				<!-- Modal -->
-				<div class="modal fade" id="myModal" role="dialog">
-					<div class="modal-dialog">
-
-						<!-- Modal content-->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">&times;</button>
-								<h4 class="modal-title">Healthcare</h4>
-							</div>
-							<div class="modal-body">
-							  <p>Personal growth from healthcare industry experience.</p>
-							</div>
-							<div class="modal-footer">
-							  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-			
-
-			<script>
-			$(document).ready(function(){
-				$("#myBtn").click(function(){
-					$("#myModal").modal();
-					});
-			});
-			</script>
-		
-	   <!-- /Experience -->
-	   
-	   <!--Contact--->
-	   <p><a href="https://www.linkedin.com/in/sarahwachowicz/">Click Here</a> to visit and connect with me on LinkedIn!</p>
-	   </center>
-	   
+                <!-- Technical Skills -->
+                <div class="col-4">
+                    <center><h3 class="my-4">Technical Skills:</h3></center>
+                    <ul class="list-group">
+                        <li class="list-group-item">Git Hub</li>
+                        <li class="list-group-item">Visual Studio</li>
+                        <li class="list-group-item">HTML</li>
+                        <li class="list-group-item">CSS</li>
+                        <li class="list-group-item">JavaScript</li>
+                        <li class="list-group-item">SQL</li>
+                        <li class="list-group-item">Python</li>
+                        <li class="list-group-item">C#</li>
+                        <li class="list-group-item">.NET</li>
+                    </ul>
+                    <br />
+                </div>
+                <!-- /Technical Skills -->
+            </div>
     </div>
-    <!-- /.container -->
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; My Website 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+    
+    <!-- Projects Row -->
+    <center>
+        <h3 class="my-3">Projects:</h3>
+        <br />
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card-columns" id="projects">
+                    <div class="card" style="width:200px">
+                        <img class="card-img-projects" src="html.png" alt="html">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary">See Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:200px">
+                    <img class="card-img-projects" src="sql.jpg" alt="sql">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">See Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width:200px">
+                    <img class="card-img-projects" src="python.jpg" alt="python">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary">See Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- /Projects -->
+        <!--Contact--->
+        <h3 class="my-4" id="contact">Contact:</h3>
+        <p><a href="https://www.linkedin.com/in/sarahwachowicz/" target="_blank">Click Here</a> to visit and connect with me on LinkedIn!</p>
+
+
+
+
+
+
+        <!-- Footer -->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; My Website 2018</p>
+            </div>
+        </footer>
+    </center>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  </body>
-
+</body>
 </html>
