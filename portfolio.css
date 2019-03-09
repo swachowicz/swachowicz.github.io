@@ -1,0 +1,155 @@
+﻿/*!
+
+ * Start Bootstrap - Portfolio Item (https://startbootstrap.com/template-overviews/portfolio-item)
+
+ * Copyright 2013-2017 Start Bootstrap
+
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-portfolio-item/blob/master/LICENSE)
+
+ */
+
+body, html {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    padding-top: 20px;
+    font-family: sans-serif;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #E9E3D4
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("blankblack.png");
+    background-size: cover;
+}
+
+.text-vertical-center-title {
+    display: table-cell;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 25px;
+    color: #99D7E5;
+    font-family: "Courier New", 'Times New Roman', serif;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.text-vertical-center-subtitle {
+    display: table-cell;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 25px;
+    color: #FCA53C;
+    font-family: "Courier New", 'Times New Roman', serif;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #EF27FF;
+}
+
+p.about {
+   padding-left: 250px;
+   padding-right: 250px;
+}
+
+.col-4 {
+    padding-left: 50px;
+    padding-right: 100px;
+    margin: 0;
+    background-color: #fff
+}
+
+.col-8 {
+    padding-left: 100px;
+    padding-right: 20px;
+    margin: 0;
+    background-color: #fff;
+    text-align: center;
+    width: 50%;
+    
+}
+
+.card-img-projects {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.col-sm-4 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card-title-hs {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center
+}
+
+.card-title-oregon {
+    margin-top: 0.91rem;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center
+}
+
+.card-title-tech {
+    margin-top: 0.85rem;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center
+}
+
+p.card-text {
+    text-align: center;
+    font-size: 14px
+}
+
+.card-title-exp {
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline
+}
+
